@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* fonts */
+h3{
+  font-family: 'Nanum Gothic', sans-serif;
+  color:#333;
+  font-style: bold;
+}
+
+h1 {
+  font-family: 'Nanum Gothic', sans-serif;
+  color:#333;
+}
+p{
+  font-family: 'Lato', sans-serif;
+}
+
+/* nav bar */
+.header{
+  margin: 0;
+  text-align: right;
+  padding: 14px 16px;
+  height: 40px;
+  background-color: #333;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(150,150,150,0.8);
+}
+
+/*search*/
+.round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.corner {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+    background: #000; /* Set the bg image here. with "no-repeat" */
+}
+
+.search {
+    position: relative;
+    width: 190px;
+    height: 30px;
+}
+
+input:focus {
+  outline:none;
+}
+
+/* user profile area*/
+.container{
+  margin: auto;
+	margin-top: 50px;
+  margin-bottom: 40px;
+	width: 500px;
+	-moz-box-shadow: 3px 3px 45px 10px #555;
+	-webkit-box-shadow: 3px 3px 45px 10px #555;
+	-o-box-shadow: 3px 3px 45px 10px #555;
+	box-shadow: 3px 3px 45px 10px #555;
+}
+
+.container .info {
+	width: 300px;
+	height: 600px;
+	background-color: white;
+}
+
+.container .info .profiles {
+  width: 500px;
+	height: 570px;
+	overflow: scroll;
+}
+.container .info .title{
+	width: 290px;
+	height: 30px;
+	padding-left: 10px;
+}
+
+.container .info .account{
+	width: 250px;
+	margin: auto;
+	height: 100px;
+	border-bottom: 1px solid #ccc;
+	padding-left: 10px;
+	font-weight: 300;
+	cursor: pointer;
+}
+
+.container .info .account div{
+	display: inline-block;
+}
+
+.container .info .account .username{
+  margin-bottom: 80px;
+  height: 30px;
+	vertical-align: middle;
+	padding-left: 25px;
+  font-size: 19px;
+  color: black;
+  font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+/* user icon */
+.container .info .account .icon{
+	line-height: 50px;
+  margin-top: 10px;
+}
+img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/*account*/
+.container .info .accountView {
+  width: 250px;
+	margin: auto;
+	height: 100px;
+	border-bottom: 1px solid #ccc;
+	padding-left: 10px;
+	font-weight: 300;
+	cursor: pointer;
+  color: black;
+  font-family: 'Nanum Gothic', sans-serif;
+}
